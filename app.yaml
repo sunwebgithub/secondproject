@@ -2,18 +2,5 @@ runtime: php55
 api_version: 1
 
 handlers:
-
-- url: /css
-  static_dir: css
-  
-- url: /js
-  static_dir: js
-  
-- url: /images
-  static_dir: images
-  
- - url: /fonts/roboto/
-  static_dir: fonts/roboto/
-  
 - url: /.*
 script: index.html
