@@ -1,6 +1,5 @@
 runtime: php55
 api_version: 1
-
 handlers:
 - url: /images
   script: images
@@ -14,5 +13,3 @@ handlers:
   script: fonts
    - url: /roboto
   script: roboto
-
-
