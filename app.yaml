@@ -2,5 +2,17 @@ runtime: php55
 api_version: 1
 
 handlers:
-- url: /.*
-script: index.php
+- url: /images
+  script: images
+- url: /js
+  script: js
+- url: /css
+  script: css
+ - url: /css
+  script: css
+  - url: /fonts
+  script: fonts
+   - url: /roboto
+  script: roboto
+
+
